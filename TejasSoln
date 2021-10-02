@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+//this is factorial function
 int fact(int num){
 if(num == 1 || num == 0){
 return num;
