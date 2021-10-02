@@ -1,4 +1,8 @@
 #include<bits/stdc++.h>
+#include<string.h>
+#include<math>
+#include<vector>
+
 using namespace std;
 
 //this is factorial function
