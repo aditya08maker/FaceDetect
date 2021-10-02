@@ -9,9 +9,9 @@ return num;
 else{
 return num*fact(num-1);
 }
-
 }
 
+//this main function
 int main(){
 int n;
 cin>>n;
