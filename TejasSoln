@@ -1,12 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int fact(int a){
-if(a == 1 || a == 0){
-return a;
+
+int fact(int num){
+if(num == 1 || num == 0){
+return num;
 }
 else{
-return a*fact(a-1);
+return num*fact(num-1);
 }
 
 }
