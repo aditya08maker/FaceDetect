@@ -34,4 +34,4 @@ n = len(a)
 print("Mean =", findMean(a, n))
 print("Median =", findMedian(a, n))
 
-,
+
