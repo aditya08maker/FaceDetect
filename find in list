@@ -13,6 +13,6 @@ Tuple= (1, 2, 'sachin', 4, 'Geeks', 6)
 n = 'Geeks'
   
 if search(Tuple, n):
-    print("Found")
+    print("Yey Found")
 else:
-    print("Not Found")
+    print("Oops !! Not Found")
