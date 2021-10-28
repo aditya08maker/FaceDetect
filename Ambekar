@@ -1,5 +1,4 @@
-// CPP program to illustrate
-// concept of Virtual Functions
+
 
 #include <iostream>
 using namespace std;
@@ -32,13 +31,13 @@ public:
 
 int main()
 {
-	base* bptr;
+	base* b_ptr;
 	derived d;
-	bptr = &d;
+	b_ptr = &d;
 
 	// virtual function, binded at runtime
-	bptr->print();
+	b_ptr->print();
 
 	// Non-virtual function, binded at compile time
-	bptr->show();
+	b_ptr->show();
 }
